@@ -1,0 +1,305 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.h.treinoapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:5:22-64
+12    <!--
+13         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+14         Google Maps Android API v2, but you must specify either coarse or fine
+15         location permissions for the 'MyLocation' functionality. 
+16    -->
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:11:5-79
+17-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:12:5-81
+18-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:13:5-79
+19-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:5:5-67
+20-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:5:22-64
+21    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+21-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:15:5-98
+21-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:15:22-95
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\1c1c02604001ee99b771cc20443f9439\play-services-maps-16.0.0\AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\1c1c02604001ee99b771cc20443f9439\play-services-maps-16.0.0\AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\1c1c02604001ee99b771cc20443f9439\play-services-maps-16.0.0\AndroidManifest.xml:28:9-32
+26
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\525afcb9736874fef68f1a043ab6593d\firebase-measurement-connector-impl-17.0.3\AndroidManifest.xml:24:5-68
+27-->[com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\525afcb9736874fef68f1a043ab6593d\firebase-measurement-connector-impl-17.0.3\AndroidManifest.xml:24:22-65
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+28-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:26:5-110
+28-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:26:22-107
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+29-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
+30
+31    <application
+31-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:17:5-61:19
+32        android:allowBackup="true"
+32-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:18:9-35
+33        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+33-->[com.android.support:support-compat:28.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\0ec6f8337ff3fb577c3514e442b4c6db\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:19:9-43
+36        android:label="@string/app_name"
+36-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:20:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:21:9-54
+38        android:supportsRtl="true"
+38-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:22:9-35
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme" >
+40-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:23:9-40
+41        <activity android:name="com.example.h.treinoapp.ViewWannabes" />
+41-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:24:9-59
+41-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:24:19-47
+42        <activity android:name="com.example.h.treinoapp.ViewImage" />
+42-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:25:9-47
+42-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:25:19-44
+43        <activity
+43-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:26:9-36:20
+44            android:name="com.example.h.treinoapp.FirstActivity"
+44-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:27:13-42
+45            android:label="@string/app_name"
+45-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:28:13-45
+46            android:theme="@style/AppTheme.NoActionBar" >
+46-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:29:13-56
+47            <intent-filter>
+47-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:30:13-35:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:31:17-69
+48-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:31:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:33:17-77
+50-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:33:27-74
+51                <category android:name="android.intent.category.DEFAULT" />
+51-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:34:17-76
+51-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:34:27-73
+52            </intent-filter>
+53        </activity>
+54        <activity android:name="com.example.h.treinoapp.LoginActivity" />
+54-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:37:9-51
+54-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:37:19-48
+55        <activity android:name="com.example.h.treinoapp.CreateAdventure" />
+55-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:38:9-53
+55-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:38:19-50
+56        <activity android:name="com.example.h.treinoapp.ViewAdventures" />
+56-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:39:9-52
+56-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:39:19-49
+57        <!--
+58             The API key for Google Maps-based APIs is defined as a string resource.
+59             (See the file "res/values/google_maps_api.xml").
+60             Note that the API key is linked to the encryption key used to sign the APK.
+61             You need a different API key for each encryption key, including the release key that is used to
+62             sign the APK for publishing.
+63             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+64        -->
+65        <meta-data
+65-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:48:9-50:55
+66            android:name="com.google.android.geo.API_KEY"
+66-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:49:13-58
+67            android:value="@string/google_maps_key" />
+67-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:50:13-52
+68
+69        <activity
+69-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:52:9-54:48
+70            android:name="com.example.h.treinoapp.MapsActivity"
+70-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:53:13-41
+71            android:label="@string/app_name" />
+71-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:54:13-45
+72        <activity android:name="com.example.h.treinoapp.ViewSingleAdventure" />
+72-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:55:9-57
+72-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:55:19-54
+73        <activity android:name="com.example.h.treinoapp.ViewComments" />
+73-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:56:9-50
+73-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:56:19-47
+74        <activity android:name="com.example.h.treinoapp.ProfileActivity" />
+74-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:57:9-53
+74-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:57:19-50
+75        <activity android:name="com.example.h.treinoapp.MenuActivity" />
+75-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:58:9-50
+75-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:58:19-47
+76
+77        <uses-library
+77-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:60:2-81
+78            android:name="org.apache.http.legacy"
+78-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:60:16-53
+79            android:required="false" />
+79-->D:\FCT\IPM\Projeto\TreinoApp Diogo\app\src\main\AndroidManifest.xml:60:54-78
+80
+81        <activity
+81-->[com.google.firebase:firebase-auth:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9f5dadd3b27b071a40607d8fcf9eae62\firebase-auth-16.0.4\AndroidManifest.xml:23:9-29:75
+82            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+82-->[com.google.firebase:firebase-auth:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9f5dadd3b27b071a40607d8fcf9eae62\firebase-auth-16.0.4\AndroidManifest.xml:24:13-85
+83            android:excludeFromRecents="true"
+83-->[com.google.firebase:firebase-auth:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9f5dadd3b27b071a40607d8fcf9eae62\firebase-auth-16.0.4\AndroidManifest.xml:25:13-46
+84            android:exported="true"
+84-->[com.google.firebase:firebase-auth:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9f5dadd3b27b071a40607d8fcf9eae62\firebase-auth-16.0.4\AndroidManifest.xml:26:13-36
+85            android:launchMode="singleInstance"
+85-->[com.google.firebase:firebase-auth:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9f5dadd3b27b071a40607d8fcf9eae62\firebase-auth-16.0.4\AndroidManifest.xml:27:13-48
+86            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+86-->[com.google.firebase:firebase-auth:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9f5dadd3b27b071a40607d8fcf9eae62\firebase-auth-16.0.4\AndroidManifest.xml:28:13-102
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.firebase:firebase-auth:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9f5dadd3b27b071a40607d8fcf9eae62\firebase-auth-16.0.4\AndroidManifest.xml:29:13-72
+88
+89        <service
+89-->[com.google.firebase:firebase-auth:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9f5dadd3b27b071a40607d8fcf9eae62\firebase-auth-16.0.4\AndroidManifest.xml:31:9-35:19
+90            android:name="com.google.firebase.components.ComponentDiscoveryService"
+90-->[com.google.firebase:firebase-auth:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9f5dadd3b27b071a40607d8fcf9eae62\firebase-auth-16.0.4\AndroidManifest.xml:31:18-89
+91            android:exported="false" >
+91-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
+92            <meta-data
+92-->[com.google.firebase:firebase-auth:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9f5dadd3b27b071a40607d8fcf9eae62\firebase-auth-16.0.4\AndroidManifest.xml:32:13-34:85
+93                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+93-->[com.google.firebase:firebase-auth:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9f5dadd3b27b071a40607d8fcf9eae62\firebase-auth-16.0.4\AndroidManifest.xml:33:17-109
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-auth:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9f5dadd3b27b071a40607d8fcf9eae62\firebase-auth-16.0.4\AndroidManifest.xml:34:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\525afcb9736874fef68f1a043ab6593d\firebase-measurement-connector-impl-17.0.3\AndroidManifest.xml:28:13-30:85
+96                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+96-->[com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\525afcb9736874fef68f1a043ab6593d\firebase-measurement-connector-impl-17.0.3\AndroidManifest.xml:29:17-139
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\525afcb9736874fef68f1a043ab6593d\firebase-measurement-connector-impl-17.0.3\AndroidManifest.xml:30:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+99                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+99-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+101        </service>
+102
+103        <receiver
+103-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:29:9-33:20
+104            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+104-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:30:13-85
+105            android:enabled="true"
+105-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:31:13-35
+106            android:exported="false" >
+106-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:32:13-37
+107        </receiver>
+108        <receiver
+108-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:34:9-42:20
+109            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+109-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:35:13-100
+110            android:enabled="true"
+110-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:36:13-35
+111            android:exported="true"
+111-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:37:13-36
+112            android:permission="android.permission.INSTALL_PACKAGES" >
+112-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:38:13-69
+113            <intent-filter>
+113-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:39:13-41:29
+114                <action android:name="com.android.vending.INSTALL_REFERRER" />
+114-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:40:17-79
+114-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:40:25-76
+115            </intent-filter>
+116        </receiver>
+117
+118        <service
+118-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:44:9-47:40
+119            android:name="com.google.android.gms.measurement.AppMeasurementService"
+119-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:45:13-84
+120            android:enabled="true"
+120-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:46:13-35
+121            android:exported="false" />
+121-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:47:13-37
+122        <service
+122-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:48:9-52:72
+123            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+123-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:49:13-87
+124            android:enabled="true"
+124-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:50:13-35
+125            android:exported="false"
+125-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:51:13-37
+126            android:permission="android.permission.BIND_JOB_SERVICE" />
+126-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fa0f29f8ec3ad82d4285653e97b5e5be\firebase-analytics-16.0.5\AndroidManifest.xml:52:13-69
+127
+128        <receiver
+128-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+129            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+129-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+130            android:exported="true"
+130-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+131            android:permission="com.google.android.c2dm.permission.SEND" >
+131-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+132            <intent-filter>
+132-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+133                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+133-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
+133-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
+134            </intent-filter>
+135        </receiver>
+136        <!--
+137             FirebaseInstanceIdService performs security checks at runtime,
+138             no need for explicit permissions despite exported="true"
+139        -->
+140        <service
+140-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+141            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+141-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+142            android:exported="true" >
+142-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+143            <intent-filter android:priority="-500" >
+143-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+143-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+144                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+144-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+144-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2e721c2ef8ebcab57349007a9a76bfc0\firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+145            </intent-filter>
+146        </service>
+147
+148        <activity
+148-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\5732a499a0c59fc2fc978beaa6e88120\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+149            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+149-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\5732a499a0c59fc2fc978beaa6e88120\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+150            android:exported="false"
+150-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\5732a499a0c59fc2fc978beaa6e88120\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\5732a499a0c59fc2fc978beaa6e88120\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+152
+153        <provider
+153-->[com.google.firebase:firebase-common:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\cd3625f6e6ee2233dd139a17a70d2de0\firebase-common-16.0.4\AndroidManifest.xml:10:9-14:39
+154            android:name="com.google.firebase.provider.FirebaseInitProvider"
+154-->[com.google.firebase:firebase-common:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\cd3625f6e6ee2233dd139a17a70d2de0\firebase-common-16.0.4\AndroidManifest.xml:11:13-77
+155            android:authorities="com.example.h.treinoapp.firebaseinitprovider"
+155-->[com.google.firebase:firebase-common:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\cd3625f6e6ee2233dd139a17a70d2de0\firebase-common-16.0.4\AndroidManifest.xml:12:13-72
+156            android:exported="false"
+156-->[com.google.firebase:firebase-common:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\cd3625f6e6ee2233dd139a17a70d2de0\firebase-common-16.0.4\AndroidManifest.xml:13:13-37
+157            android:initOrder="100" />
+157-->[com.google.firebase:firebase-common:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\cd3625f6e6ee2233dd139a17a70d2de0\firebase-common-16.0.4\AndroidManifest.xml:14:13-36
+158
+159        <meta-data
+159-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ad28f1639bb0eeb3daa356a91ea21b8b\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+160            android:name="com.google.android.gms.version"
+160-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ad28f1639bb0eeb3daa356a91ea21b8b\play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+161            android:value="@integer/google_play_services_version" />
+161-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ad28f1639bb0eeb3daa356a91ea21b8b\play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+162        <meta-data
+162-->[com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\4a63f5d348af19f848212ddfee0050b8\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+163            android:name="android.support.VERSION"
+163-->[com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\4a63f5d348af19f848212ddfee0050b8\support-v4-26.1.0\AndroidManifest.xml:27:13-51
+164            android:value="26.1.0" />
+164-->[com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\4a63f5d348af19f848212ddfee0050b8\support-v4-26.1.0\AndroidManifest.xml:28:13-35
+165    </application>
+166
+167</manifest>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity">
+
+    <LinearLayout
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="65dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/icon"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:gravity="center"
+            android:textSize="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lobster_regular"
+            android:textStyle="bold"
+            android:text="Create Account"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:fontFamily="@font/lobster_regular"
+            android:drawableLeft="@drawable/ic_account"
+            android:text="Username:"/>
+        <EditText
+
+            android:id="@+id/textUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your username"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:fontFamily="@font/lobster_regular"
+            android:drawableLeft="@drawable/ic_email"
+            android:text="Email:"/>
+        <EditText
+
+            android:id="@+id/textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:fontFamily="@font/lobster_regular"
+            android:drawableLeft="@drawable/ic_password"
+            android:text="Password:"/>
+        <EditText
+            android:id="@+id/textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+
+            android:layout_marginTop="25dp"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#19A83F"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:shadowRadius="5"
+            android:textStyle="italic"
+
+            android:text="Register User" />
+
+        <TextView
+            android:text="You already have an Account? Signin Here!"
+            android:id="@+id/textSignIn"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/wannabeUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:text="User Name:"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <Button
+            android:id="@+id/buttonConfirm"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:background="@drawable/buttonshape_green"
+            android:shadowColor="#19A83F"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Confirm"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="italic"/>
+
+        <Button
+            android:id="@+id/buttonRefuse"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:background="@drawable/buttonshape_red"
+            android:shadowColor="#19A83F"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Refuse"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

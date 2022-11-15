@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerSAdv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.h.treinoapp.ViewSingleAdventure">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:minWidth="80dp"
+            android:minHeight="80dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="30dp"
+                android:minHeight="30dp"
+                android:src="@mipmap/ic_launcher_second_round" />
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lobster_regular"
+                android:minHeight="80dp"
+                android:textAlignment="center"
+                android:textColor="@color/Navy"
+                android:text="Teste Aventura"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewParticipants"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_my_adventures"
+            android:fontFamily="@font/lobster_regular"
+            android:text=" XX/XX"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonFollow"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#19A83F"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Join"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonUnfollow"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/buttonshape_red"
+            android:shadowColor="#19A83F"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Leave"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/buttonFull"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/buttonshape_red"
+            android:shadowColor="#19A83F"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Full Adventure"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="25dp"
+            android:drawableLeft="@drawable/ic_attachment"
+            android:fontFamily="@font/lobster_regular"
+            android:text="About: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_date"
+
+            android:fontFamily="@font/lobster_regular"
+            android:text="Date:  "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/viewDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_place"
+            android:fontFamily="@font/lobster_regular"
+            android:text="Place: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/viewPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Place:"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:fontFamily="@font/lobster_regular"
+                android:text="Duration:"/>
+
+            <TextView
+                android:id="@+id/viewDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="Duration"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lobster_regular"
+                android:layout_marginLeft="10dp"
+                android:hint="Has Cost? "
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/viewCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Cost"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonComments"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#19A83F"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="See Comments"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_viewSAdv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu"></android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
